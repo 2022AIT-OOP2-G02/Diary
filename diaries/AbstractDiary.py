@@ -7,6 +7,6 @@ class AbstractDiary(ABC):
 
     def get_summary(self):
         pass
-    
+
     def get_author(self):
         pass
