@@ -1,20 +1,21 @@
 from diaries.DiarySample import DiarySample
-
 from diaries.IzumiDiary import IzumiDiary
 from diaries.KandaDiary import KandaDiary
 from diaries.FukuharaDiary import FukuharaDiary
 from diaries.ShimizuDiary import ShimizuDiary
 from diaries.HamaokaDiary import HamaokaDiary
-
+from diaries.omoriDiary import omoriDiary
 
 #↓のリストには、メンバーの各⽇記が格納されます。
 diaries = [
+    DiarySample(), 
     DiarySample(),
     IzumiDiary(),
     KandaDiary(),
     FukuharaDiary(),
     ShimizuDiary(),
-    HamaokaDiary()
+    HamaokaDiary(),
+    omoriDiary(),
 ]
 
 
