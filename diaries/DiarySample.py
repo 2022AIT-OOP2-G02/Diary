@@ -7,6 +7,6 @@ class DiarySample(AbstractDiary):
 
     def get_summary(self):
         return "何もない一日だった"
-        
+
     def get_author(self):
         return "Sample"
