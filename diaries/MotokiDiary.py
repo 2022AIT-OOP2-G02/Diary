@@ -1,5 +1,4 @@
 from diaries.AbstractDiary import AbstractDiary
-from diaries.MotokiDiary import MotkiDiary
 
 class MotokiDiary(AbstractDiary):
     
@@ -10,4 +9,4 @@ class MotokiDiary(AbstractDiary):
         return"バイトを頑張った"
 
     def get_author(self):
-        return "Motoki"
+        return "motoki"
